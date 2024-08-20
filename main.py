@@ -43,6 +43,20 @@ part = 25
 whole = 100
 percentage = calculate_percentage(part,whole)
 print(f"{part} is {percentage}% of {whole}")
-    
+  #8. BMI Calculator
+weight = 58
+height = 1.52
+bmi = weight / (height ** 2) 
+print("Weight:" , weight, "kg")
+print("Height:" , height, "m")
+print("BMI:" , round(bmi,2))
+#9. Cylinder Volume Calculator
+import math
+radius = 5
+height = 10 
+volume = math.pi *(radius ** 2)* height
+print("Radius:" , radius)
+print("Height:" , height)
+print("Volume:" , round(volume, 2))
     
     
